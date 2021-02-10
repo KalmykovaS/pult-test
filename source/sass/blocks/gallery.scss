@@ -6,7 +6,7 @@
 }
 
 .gallery__item {
-  margin-left: 5px;
+  margin: 0 5px;
 }
 
 .gallery__link,
@@ -23,8 +23,7 @@
   display: flex;
 }
 
-.gallery .slick-slide,
-.gallery__wrapper {
+.gallery .slick-slide {
   width: 300px;
   min-height: 550px;
 }
@@ -98,10 +97,6 @@
 @media (min-width: $tablet-width) {
   .gallery {
     margin-bottom: 25px;
-  }
-
-  .gallery__item {
-    margin-left: 5px;
   }
 
   .gallery .slick-slide,

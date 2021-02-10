@@ -9,7 +9,7 @@ $(document).ready(function(){
         settings: {
           slidesToShow: 4,
           slidesToScroll: 4,
-          infinite: false,
+          infinite: false
         }
       },
       {
@@ -36,8 +36,7 @@ $(document).ready(function(){
           slidesToShow: 1,
           slidesToScroll: 1,
           dots: true,
-          infinite: false,
-          variablewidth: false
+          infinite: false
         }
       }
     ]
