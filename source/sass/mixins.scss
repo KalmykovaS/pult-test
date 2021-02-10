@@ -1,0 +1,11 @@
+@mixin list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
